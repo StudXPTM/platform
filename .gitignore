@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyo
+*.pyd
+*.env
+*.env.*
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+.env
+docker-compose.override.yml
+
+# Coverage / testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+pytest_cache/
+
+# MyPy / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Others
+*.tgz
+*.tar.gz
+*.zip
+*.egg
+.idea/
+*.iml
+__pypackages__/
